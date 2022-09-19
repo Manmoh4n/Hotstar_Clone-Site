@@ -1,0 +1,118 @@
+
+.navbar{
+
+  -webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
+  animation: background 5s cubic-bezier(1,0,0,1) infinite;
+  width: 100%;
+}
+
+
+@-webkit-keyframes background {
+  0% { background-color: #F2D388; }
+  33% { background-color: #A7D2CB; }
+  67% { background-color: #A7D2CB; }
+  100% { background-color: #F2D388; }
+}
+
+@keyframes background {
+  0% { background-color: #F2D388; }
+  33% { background-color: #A7D2CB; }
+  67% { background-color: #A7D2CB; }
+  100% { background-color: #F2D388; }
+
+}
+.img{
+  width: 60px;
+  border-radius: 3px;
+}
+.img1{
+  width: 100%;
+}
+.nav-link{
+  font-family:monospace;
+  font-weight:bolder;
+}
+
+.carousel{
+  height: 40%;
+
+}
+.hrr{
+  width: 20%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#media-carousel-container{
+  margin: 10px 40px 40px 40px;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+.media-carousel{
+  position: relative;
+width: 200px;
+height: 200px;
+margin: 10px 5px;
+float: left;
+}
+
+.overlay{
+  position: absolute;
+bottom: 0;
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+width: 100%;
+text-align: center;
+}
+}
+.catimg{
+  height: 200px;
+  width: 200px;
+}
+
+#media-holder-drama{
+      clear: both;
+}
+.h{
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body{
+  color: black;
+}
+.foot{
+  width: 100%;
+}
+#media-holder-drama{
+  clear: both;
+}
+
+#media-holder-scifi{
+  clear: both;
+}
+html *
+{
+   font-family: 'Poppins', sans-serif;
+}
+.omg{
+  font-family: 'Poppins', sans-serif;
+}
